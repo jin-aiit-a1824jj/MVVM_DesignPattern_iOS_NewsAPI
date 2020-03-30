@@ -13,6 +13,7 @@
 		65E5F4462431CBBB003187A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65E5F4452431CBBB003187A3 /* Assets.xcassets */; };
 		65E5F4492431CBBB003187A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65E5F4472431CBBB003187A3 /* LaunchScreen.storyboard */; };
 		65E5F4522431CC02003187A3 /* NewsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E5F4512431CC02003187A3 /* NewsListTableViewController.swift */; };
+		65E5F4552431CED8003187A3 /* Webservices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E5F4542431CED8003187A3 /* Webservices.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		65E5F4482431CBBB003187A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65E5F44A2431CBBB003187A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65E5F4512431CC02003187A3 /* NewsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListTableViewController.swift; sourceTree = "<group>"; };
+		65E5F4542431CED8003187A3 /* Webservices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservices.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		65E5F43B2431CBBA003187A3 /* GoodNew_sampel */ = {
 			isa = PBXGroup;
 			children = (
+				65E5F4532431CEC4003187A3 /* Services */,
 				65E5F4502431CBD9003187A3 /* Controllers */,
 				65E5F43C2431CBBA003187A3 /* AppDelegate.swift */,
 				65E5F43E2431CBBA003187A3 /* SceneDelegate.swift */,
@@ -73,6 +76,14 @@
 				65E5F4512431CC02003187A3 /* NewsListTableViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		65E5F4532431CEC4003187A3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				65E5F4542431CED8003187A3 /* Webservices.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +159,7 @@
 			files = (
 				65E5F43D2431CBBA003187A3 /* AppDelegate.swift in Sources */,
 				65E5F4522431CC02003187A3 /* NewsListTableViewController.swift in Sources */,
+				65E5F4552431CED8003187A3 /* Webservices.swift in Sources */,
 				65E5F43F2431CBBA003187A3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
